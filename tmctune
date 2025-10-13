@@ -1,0 +1,40 @@
+#### Custom Motors
+#### extruder
+[motor_constants Shengyang-36BYG1510-1M-6QT] 
+resistance: 1.8
+inductance: 0.0012
+holding_torque: 0.135
+max_current: 1.5
+steps_per_revolution: 200
+
+#### config
+
+[autotune_tmc stepper_x]
+motor: omc-17hs19-2504s-h
+sg4_thrs: 150
+tuning_goal: performance
+
+[autotune_tmc stepper_y]
+motor: omc-17hs19-2504s-h
+sg4_thrs: 170
+tuning_goal: performance
+
+[autotune_tmc stepper_z]
+motor: creality-42-34
+tuning_goal: performance
+
+[autotune_tmc stepper_z1]
+motor: creality-42-34
+tuning_goal: performance
+
+[autotune_tmc stepper_z2]
+motor: creality-42-34
+tuning_goal: performance
+
+[autotune_tmc extruder]
+motor: Shengyang-36BYG1510-1M-6QT
+tuning_goal: performance
+
+# https://www.reddit.com/r/Sovol/comments/1g1qbgk/sv08_xy_stepper_motor_parameters/
+# https://preview.redd.it/vnsx0uuehkre1.png?width=2000&format=png&auto=webp&s=790d3fbaf52b48552c3bc7aae27ec4dc8d66525a
+
