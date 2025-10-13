@@ -11,24 +11,24 @@ steps_per_revolution: 200
 
 [autotune_tmc stepper_x]
 motor: omc-17hs19-2504s-h
-sg4_thrs: 150
+sg4_thrs: 120
 tuning_goal: performance
 
 [autotune_tmc stepper_y]
 motor: omc-17hs19-2504s-h
-sg4_thrs: 170
+sg4_thrs: 120
 tuning_goal: performance
 
 [autotune_tmc stepper_z]
-motor: creality-42-34
+motor: BJ42D15-26V
 tuning_goal: performance
 
 [autotune_tmc stepper_z1]
-motor: creality-42-34
+motor: BJ42D15-26V
 tuning_goal: performance
 
 [autotune_tmc stepper_z2]
-motor: creality-42-34
+motor: moons-c17hd2024n-01n
 tuning_goal: performance
 
 [autotune_tmc extruder]
