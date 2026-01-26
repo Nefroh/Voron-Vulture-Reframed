@@ -1,4 +1,4 @@
-# Voron-Vulture-Setup
+# Voron-Vulture-"Reframed"
 ! Early WIP !  
 This project started as just a repo for me to catalogue the mods and configs of my Voron Trident 250, but has ballooned into designing new paneling, skirt etc for my weird Frankenvoron.
 
